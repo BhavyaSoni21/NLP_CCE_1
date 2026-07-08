@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NLP Knowledge Repository</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+  <div class="scroll-bar" id="scroll-bar"></div>
+
+  <nav class="navbar" id="navbar">
+    <a href="#home" class="nav-brand">
+      <span class="brand-mark">NLP</span>
+      <span class="brand-text">Knowledge Repository</span>
+    </a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#concept-cards">Concept Cards</a></li>
+      <li><a href="#comparative-analysis">Comparative Analysis</a></li>
+      <li><a href="#workflow-diagrams">Workflows</a></li>
+      <li><a href="#applications">Applications</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#sustainability">Sustainability</a></li>
+      <li><a href="#contribution-matrix">Contributions</a></li>
+      <li><a href="#references">References</a></li>
+    </ul>
+    <div class="nav-actions">
+
+      <button class="icon-btn" id="print-btn" aria-label="Print">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8" rx="1"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="section hero">
+      <div class="hero-inner">
+        <span class="eyebrow">CCE Component 1</span>
+        <h1>Natural Language Processing<br>Knowledge Repository</h1>
+        <p class="subtitle">A comprehensive guide to NLP fundamentals — from preprocessing to transformer models</p>
+        <p class="students">Prepared by: Bhavya Soni &amp; Mit Darji</p>
+        <div class="hero-btns">
+          <a href="#concept-cards" class="btn btn-primary">Explore Concepts</a>
+          <a href="#sustainability" class="btn btn-secondary">Societal Impact</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION A: CONCEPT CARDS -->
+    <section id="concept-cards" class="section">
+      <span class="eyebrow">Section A</span>
+      <h2>Concept Cards</h2>
+      <p class="section-intro">Foundational NLP concepts organized into Text Preprocessing, Feature Engineering, Language Representation, and Language Models. Each card includes Definition, Purpose, Working Principle, Example, Advantages, Limitations, Applications, Flow Diagram, Practical Use Case, References, and Related Concepts.</p>
+      <div class="search-bar">
+        <input type="search" id="concept-search" placeholder="Search concepts..." autocomplete="off">
+        <button class="search-clear" id="search-clear" hidden>&times;</button>
+      </div>
+      <p class="search-status" id="search-status"></p>
+      <div id="concept-cards-container"></div>
+    </section>
+
+    <!-- SECTION B: COMPARATIVE ANALYSIS -->
+    <section id="comparative-analysis" class="section">
+      <span class="eyebrow">Section B</span>
+      <h2>Comparative Analysis</h2>
+      <p class="section-intro">Direct comparisons between related NLP techniques covering Working Mechanism, Computational Complexity, Strengths, Weaknesses, and Suitable Applications.</p>
+      <div id="comparisons-container"></div>
+    </section>
+
+    <!-- SECTION C: WORKFLOW DIAGRAMS -->
+    <section id="workflow-diagrams" class="section">
+      <span class="eyebrow">Section C</span>
+      <h2>Workflow Diagrams</h2>
+      <p class="section-intro">Step-by-step pipelines showing how raw text moves through preprocessing, feature engineering, and vector representation.</p>
+      <div id="workflows-container"></div>
+    </section>
+
+    <!-- SECTION D: REAL-WORLD APPLICATIONS -->
+    <section id="applications" class="section">
+      <span class="eyebrow">Section D</span>
+      <h2>Real-World Applications</h2>
+      <p class="section-intro">Five key applications where NLP concepts are used in production systems, with architecture diagrams and real industry examples.</p>
+      <div id="applications-container" class="card-grid"></div>
+    </section>
+
+    <!-- SECTION E: RESEARCH & INDUSTRY INSIGHTS -->
+    <section id="research" class="section">
+      <span class="eyebrow">Section E</span>
+      <h2>Research &amp; Industry Insights</h2>
+      <p class="section-intro">Recent research developments, industrial applications, and open-source frameworks shaping the NLP landscape.</p>
+      <div id="research-container" class="card-grid"></div>
+    </section>
+
+    <!-- SUSTAINABILITY -->
+    <section id="sustainability" class="section">
+      <span class="eyebrow">Impact</span>
+      <h2>Sustainability and Societal Impact</h2>
+      <h3>How NLP Can Contribute to Society and Sustainable Development</h3>
+      <div id="sustainability-container"></div>
+    </section>
+
+    <!-- CONTRIBUTION MATRIX -->
+    <section id="contribution-matrix" class="section">
+      <span class="eyebrow">Teamwork</span>
+      <h2>Contribution Matrix</h2>
+      <p class="section-intro">Individual contributions, concept card assignments, comparative analysis work, and reflection notes from each team member.</p>
+      <div id="contribution-matrix-container"></div>
+    </section>
+
+    <!-- REFLECTIONS -->
+    <section id="reflections" class="section">
+      <span class="eyebrow">Learning</span>
+      <h2>Reflection Notes</h2>
+      <div id="reflections-container" class="card-grid"></div>
+    </section>
+
+    <!-- REFERENCES -->
+    <section id="references" class="section">
+      <span class="eyebrow">Citations</span>
+      <h2>References</h2>
+      <p class="section-intro">All sources cited in this repository, presented in APA and IEEE citation styles with links to research papers, official documentation, and textbooks.</p>
+      <div class="ref-tabs">
+        <button class="ref-tab active" data-style="apa">APA Style</button>
+        <button class="ref-tab" data-style="ieee">IEEE Style</button>
+      </div>
+      <div id="references-container"></div>
+    </section>
+
+    <!-- AUTHORS -->
+    <section id="authors" class="section">
+      <span class="eyebrow">Authors</span>
+      <h2>Repository Information</h2>
+      <div id="authors-container" class="card-grid"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="brand-mark">NLP</span>
+        <div><strong>Knowledge Repository</strong><br><span class="footer-muted">CCE Component 1 — Natural Language Processing</span></div>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h5>Content</h5>
+          <a href="#concept-cards">Concept Cards</a>
+          <a href="#comparative-analysis">Comparative Analysis</a>
+          <a href="#workflow-diagrams">Workflows</a>
+          <a href="#applications">Applications</a>
+        </div>
+        <div>
+          <h5>More</h5>
+          <a href="#research">Research</a>
+          <a href="#sustainability">Sustainability</a>
+          <a href="#contribution-matrix">Contributions</a>
+          <a href="#references">References</a>
+        </div>
+        <div>
+          <h5>Authors</h5>
+          <a href="#authors">Bhavya Soni</a>
+          <a href="#authors">Mit Darji</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="current-year"></span> NLP Knowledge Repository</p>
+      <a href="#home" class="back-link">Back to Top ↑</a>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="data.js"></script>
+  <script src="render.js"></script>
+  <script src="main.js"></script>
+  <script src="ui.js"></script>
+</body>
+</html>
