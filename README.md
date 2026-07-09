@@ -8,9 +8,7 @@ This repository presents key NLP concepts in a structured, interactive, and easy
 
 ## 🌐 Live Demo
 
-
-Example:
-https://dhairyas52.github.io/nlp-knowledge-repo/
+Open the deployed project here: [https://bhavyasoni21.github.io/NLP_CCE_1/](https://bhavyasoni21.github.io/NLP_CCE_1/)
 
 ---
 
@@ -30,7 +28,7 @@ The website is designed to help students understand NLP concepts through:
 
 ## ✨ Features
 
-- 📚 Six detailed NLP Concept Cards
+- 📚 Twenty-one detailed NLP Concept Cards
 - 📊 Comparative Analysis Tables
 - 🔄 Interactive Workflow Diagrams
 - 🌍 Real-world NLP Applications
@@ -38,7 +36,6 @@ The website is designed to help students understand NLP concepts through:
 - 🌱 Sustainability Section
 - 👥 Contribution Matrix
 - 📝 Reflection Notes
-- 🌙 Dark Mode
 - 🔍 Search Functionality
 - 📱 Fully Responsive Design
 - ⬆️ Back-to-Top Button
@@ -70,16 +67,17 @@ The website is designed to help students understand NLP concepts through:
 
 ```
 /
-├──images
-├  ├── Feature Engineering Pipeline.png
-├  ├── Text Preprocessing Pipeline.png
-├  └── Text-to-Vector Transformation Process.png
+├── data.js
 ├── index.html
-├── css/
-├── js/
-├── assets/
-├── images/
-└── README.md
+├── main.js
+├── README.md
+├── render.js
+├── style.css
+├── ui.js
+└── images/
+	├── Feature Engineering Pipeline.png
+	├── Text Preprocessing Pipeline.png
+	└── Text-to-Vector Transformation Process.png
 ```
 
 ---
@@ -116,7 +114,7 @@ The website is designed to help students understand NLP concepts through:
 1. Clone this repository.
 
 ```bash
-git clone https://github.com/yourusername/your-repository.git
+git clone https://github.com/BhavyaSoni21/NLP_CCE_1.git
 ```
 
 2. Open the project folder.
