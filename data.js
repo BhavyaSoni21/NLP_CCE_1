@@ -600,5 +600,5 @@ const REFERENCES_IEEE = [
 
 const STUDENT_INFO = [
   { name: "Bhavya Soni", role: "Contributor", github: "#", email: "bhavya.soni24@sakec.ac.in" },
-  { name: "Mit Darji", role: "Contributor", github: "#", email: "mit.darji24@sakrc.ac.in" }
+  { name: "Mit Darji", role: "Contributor", github: "#", email: "mit.darji24@sakec.ac.in" }
 ];
