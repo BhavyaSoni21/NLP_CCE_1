@@ -84,7 +84,7 @@ The website is designed to help students understand NLP concepts through:
 
 ## 👥 Contributors
 
-### Dhairya
+### Bhavya
 - Tokenization
 - Stop-word Removal
 - Stemming
@@ -92,7 +92,7 @@ The website is designed to help students understand NLP concepts through:
 - Workflow Diagram
 - Reflection Note
 
-### Ankush
+### Mit
 - Lemmatization
 - Bag of Words
 - TF-IDF
